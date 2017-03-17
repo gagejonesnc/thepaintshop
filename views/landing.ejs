@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>QFS</title>
+    <title>The Paint Shop</title>
 
     <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
     <link rel="stylesheet" href="<%= uikitcss %>" />
@@ -12,9 +12,24 @@
     <script src="<%= uikitjs %>"></script>
     <script src="https://use.fontawesome.com/c5a33ffe36.js"></script>
     <style>.dc-main {background-image: url(assets/images/conveyor-edit.jpg);}</style>
+    <style>
+        .preloader-background {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #eee url("assets/images/tps-preloader.gif") no-repeat center center;
+            position: fixed;
+            z-index: 1001;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
 </head>
 
 <body uk-height-viewport="" style="box-sizing: border-box; min-height: 100vh; height: 100vh;">
+    <div class="preloader-background"></div>
     <main class="dc-main uk-background-cover uk-flex uk-flex-wrap uk-flex-between" uk-height-viewport="offset-top: true; offset-bottom: true;" style="box-sizing: border-box; min-height: calc(100vh - 127px); height: calc(100vh - 127px);">
         <!-- Menu DESKTOP -->
         <div class="uk-flex uk-flex-top uk-flex-column uk-flex-left uk-width-1 uk-visible@s">
@@ -89,7 +104,7 @@
         </div>
         <!-- Tagline MOBILE -->
         <div class="uk-flex uk-flex-bottom uk-flex-row uk-width-1 uk-hidden@s ">
-            <div class="uk-dark dc-cell uk-width-1">
+            <div class="uk-dark dc-cell uk-width-1 uk-padding-remove">
                 <div class="red uk-light uk-padding-small"><span class="uk-h4 uk-light">The Paint Shop</span><hr class="uk-margin-small"/><span class="uk-h6 uk-light">Quality, Experience, Delivery - We Fulfill Your Needs</span></div>
             </div>
         </div>
