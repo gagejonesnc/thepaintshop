@@ -1,0 +1,133 @@
+.dc-cell {
+    padding:20px;
+}
+.dc-cell .dc-link {
+    height:100%;
+    width: 100%;
+}
+.dc-cell.dc-cell-square {
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0;
+}
+
+.dc-cell.dc-cell-square.dc-cell-width-x2 {
+    width: 250px;
+}
+
+.dc-cell.dc-cell-square.dc-cell-width-x3 {
+    width: 375px;
+}
+
+.dc-cell.dc-cell-square.dc-cell-width-x4 {
+    width: 500px;
+}
+
+.dc-cell.dc-cell-square.dc-cell-width-x5 {
+    width: 625px;
+}
+
+.dc-cell.dc-cell-square.dc-cell-width-x6 {
+    width: 750px;
+}
+
+.dc-cell.dc-cell-square .dc-link {
+    height:100%;
+    width:100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    font-size:1.25em;
+    font-weight: 500;
+}
+
+.dc-cell.dc-cell-square .dc-link:hover {
+    background-color: rgba(33, 33, 33, .9);
+    color: #fff;
+}
+
+
+.dc-cell.white, .white {
+    background-color: rgba(240, 240, 240, .85);
+    color: #333;
+}
+.dc-cell.red, .red {
+    background-color: rgba(190, 5, 5, .9);
+    color: rgba(255, 235, 230, 1.0);
+}
+.dc-cell.dark-red, .dark-red {
+    background-color: rgba(150, 10, 10, .925);
+    color: rgba(255, 235, 230, 1.0);
+}
+#main-nav .dc-link {
+    font-weight: 500;
+    color: #333;
+}
+#main-nav .dc-link:hover {
+    text-decoration: none;
+    color: rgba(225, 225, 225, 1) !important;
+    background-color: rgba(190, 5, 5, 1);
+}
+#offcanvas-nav .dc-link {
+    font-weight: 500;
+    color: #333;
+}
+#offcanvas-nav .dc-link:hover {
+    text-decoration: none;
+    color: rgba(190, 5, 5, 1);
+}
+footer .brand {
+    font-size: 2.25em;
+}
+footer .dc-link {
+    font-weight: 500;
+    color: #333;
+}
+footer .dc-link:hover {
+    text-decoration: none;
+    color: rgba(190, 5, 5, 1);
+}
+
+@media (max-width: 640px) {
+    .dc-cell.dc-cell-square {
+        width: 90px;
+        height: 90px;
+    }
+    .brand {
+        font-size: 1.7em;
+    }
+
+}
+@media (min-width: 641px) {
+    .dc-cell.dc-cell-square {
+        width: 125px;
+        height: 125px;
+    }
+    .brand {
+        font-size: 2.25em;
+    }
+
+}
+
+
+/****************************************************************************************
+*
+*                       MODIFICATIONS TO UIKIT
+*
+****************************************************************************************/
+.uk-checkbox:checked, .uk-checkbox:indeterminate, .uk-radio:checked {
+    background-color: rgba(190, 5, 5, 1);
+}
+.uk-checkbox:checked:focus, .uk-checkbox:indeterminate:focus, .uk-radio:checked:focus {
+    background-color: rgba(190, 5, 5, 1);
+}
+.uk-input:focus, .uk-select:focus, .uk-textarea:focus {
+    border-color: rgba(150, 5, 5, 1);
+}
+.dc-contact {
+    padding: 25px;
+    background-color: rgba(150, 10, 10, .8);
+}

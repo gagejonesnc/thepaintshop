@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QFS</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
+    <link rel="stylesheet" href="<%= uikitcss %>" />
+    <link rel="stylesheet" href="<%= customcss %>">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="<%= uikitjs %>"></script>
+    <script src="https://use.fontawesome.com/c5a33ffe36.js"></script>
+    <style>.dc-main {background-image: url(assets/images/conveyor-edit.jpg);}</style>
+</head>
+
+<body uk-height-viewport="" style="box-sizing: border-box; min-height: 100vh; height: 100vh;">
+    <main class="dc-main uk-background-cover uk-flex uk-flex-wrap uk-flex-between" uk-height-viewport="offset-top: true; offset-bottom: true;" style="box-sizing: border-box; min-height: calc(100vh - 127px); height: calc(100vh - 127px);">
+        <!-- Menu DESKTOP -->
+        <div class="uk-flex uk-flex-top uk-flex-column uk-flex-left uk-width-1 uk-visible@s">
+            <div class="uk-flex uk-flex-row">
+                <div class="uk-dark dc-cell dc-cell-square">
+                    <a class="dc-link white" href="/"><span class="brand">TPS</span></a>
+                </div>
+                <div class="uk-light dc-cell dc-cell-square">
+                    <a class="dc-link red" href="/shop">Our Shop</a>
+                </div>
+                <div class="uk-light dc-cell dc-cell-square">
+                    <a class="dc-link dark-red" href="/about">About</a>
+                </div>
+            </div>
+            <div class="uk-flex uk-flex-row">
+                <div class="uk-light dc-cell dc-cell-square">
+                    <a class="dc-link red" href="/work">Our Work</a>
+                </div>
+                <div class="uk-light dc-cell dc-cell-square">
+                    <a class="dc-link dark-red" href="/services">Services</a>
+                </div>
+            </div>
+            <div class="uk-flex uk-flex-row">
+                <div class="uk-light dc-cell dc-cell-square">
+                    <a class="dc-link dark-red" href="/contact">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Toggle MOBILE -->
+        <div class="uk-hidden@s">
+            <div class="uk-flex uk-flex-column uk-position-top-left">
+                <div class="uk-dark dc-cell dc-cell-square">
+                    <a class="dc-link white"><span class="brand">TPS</span></a>
+                </div>
+            </div>
+            <div class="uk-flex uk-flex-column uk-position-top-right">
+                <div class="uk-dark dc-cell dc-cell-square">
+                    <a class="dc-link red" href="#offcanvas-nav" uk-toggle><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- This is the off-canvas -->
+        <div id="offcanvas-nav" uk-offcanvas="flip: true">
+            <div class="uk-offcanvas-bar uk-background-muted">
+                <ul class="uk-nav uk-nav-primary uk-nav-center">
+                    <li class="uk-nav-header">
+                        <a class="dc-link" href="/"><span class="brand">TPS</span></a>
+                    </li>
+                    <li class="uk-divider"></li>
+                    <li>
+                        <a class="uk-link-muted dc-link" href="/about">About</a>
+                    </li>
+                    <li>
+                        <a class="uk-link-muted dc-link" href="/shop">Our Shop</a>
+                    </li>
+                    <li>
+                        <a class="uk-link-muted dc-link" href="/work">Our Work</a>
+                    </li>
+                    <li>
+                        <a class="uk-link-muted dc-link" href="/services">Services</a>
+                    </li>
+                    <li>
+                        <a class="uk-link-muted dc-link" href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Name & Tagline DESKTOP -->
+        <div class="uk-flex uk-flex-bottom uk-flex-column uk-flex-right uk-width-1 uk-visible@s">
+            <div class="white uk-dark dc-cell dc-cell-square dc-cell-width-x4 "><div><h2 class="uk-margin-remove">The Paint Shop</h2><small>A Division of Farris Fab</small></div></div>
+            <div class="red uk-light dc-cell dc-cell-square dc-cell-width-x5 "><div><span class="uk-h3 uk-light">Quality, Experience, Delivery - We Fulfill Your Needs</span></div></div>
+        </div>
+        <!-- Tagline MOBILE -->
+        <div class="uk-flex uk-flex-bottom uk-flex-row uk-width-1 uk-hidden@s ">
+            <div class="uk-dark dc-cell uk-width-1">
+                <div class="red uk-light uk-padding-small"><span class="uk-h4 uk-light">The Paint Shop</span><hr class="uk-margin-small"/><span class="uk-h6 uk-light">Quality, Experience, Delivery - We Fulfill Your Needs</span></div>
+            </div>
+        </div>
+    <% include partials/footer %>

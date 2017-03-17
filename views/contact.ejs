@@ -1,0 +1,49 @@
+<% include partials/header %>
+<div class="uk-section">
+    <div class="uk-container">
+
+        <h1 class="">Contact</h1>
+        <div class="">
+            <form id="contact" action="/contact" method="post" class="uk-grid-small" enctype="multipart/form-data" uk-grid>
+                <fieldset id="contactform" class="uk-width-3-4 uk-margin-auto uk-fieldset uk-margin-auto uk-fieldset uk-margin-auto">
+                    <div class="uk-child-width-1-2 uk-grid-small" uk-grid>
+                            <input class="uk-input" type="text" name="fname" value="" placeholder="First Name" required autofocus>
+                            <input class="uk-input" type="text" name="lname" value="" placeholder="Last Name" required>
+                    </div>
+                    <div class="uk-child-width-1-2 uk-grid-small" uk-grid>
+                        <input class="uk-input" type="tel" name="cell" value="" placeholder="Cell Phone" required>
+                        <input class="uk-input" type="tel" name="desk" value="" placeholder="Desk Phone">
+                    </div>
+                    <div class="uk-child-width-1-1 uk-grid-small" uk-grid>
+                        <input class="uk-input" type="email" name="email" value="" placeholder="e-mail@example.com" required>
+                    </div>
+                    <div class="uk-child-width-1-1 uk-grid-small" uk-grid>
+                        <input class="uk-input" type="text" name="organization" value="" placeholder="Business Name (optional)">
+                    </div>
+                    <div class=" uk-grid-small" uk-grid>
+                        <label>Are you requesting a quote?</label>
+                        <label><input class="uk-radio" type="radio" name="request_quote" required> Yes</label>
+                        <label><input class="uk-radio" type="radio" name="request_quote"> No</label>
+                    </div>
+                    <div class=" uk-grid-small" uk-grid>
+                        <textarea class="uk-textarea" type="textarea" name="details" value="" placeholder="Please include as much information that is critical to quality as possible." required></textarea>
+                    </div>
+
+                    <div class=" uk-grid-small" uk-grid>
+                        <textarea class="uk-textarea" type="textarea" name="special" value="" placeholder="Include any special instructions."></textarea>
+                    </div>
+                    <div class="uk-flex uk-flex-between uk-flex-middle uk-grid-small" uk-grid>
+                        <div class="">
+                            <input id="attachments" name="attachments" value="upload" type="file" size="50" multiple/>
+                        </div>
+                        <div class="">
+                            <button class="uk-button uk-button-default">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+<% include partials/footer %>
