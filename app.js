@@ -19,6 +19,7 @@ app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(express.static(__dirname + "/node_modules/uikit/dist"));
+app.use(express.static(__dirname + "/node_modules/lightbox2/dist"));
 
 // include client-side assets and use the bodyParser
 app.use(express.static(__dirname + '/assets'));
