@@ -158,9 +158,6 @@ app.post("/contact", upload.array("attachments", 5), function(req, res) {
                     "\nCompany: " + ((company !== "") ? company:"N/A") +
                     "\nDetails: " + details +
                     "\nSpecial Instructions: " + special;
-    if (company) {
-        isError = true;
-    }
     console.log('\nCONTACT FORM DATA: ' + name + ' ' + email + ' ' + details + '\n');
 
     // create transporter object capable of sending email using the default SMTP transport
@@ -168,8 +165,8 @@ app.post("/contact", upload.array("attachments", 5), function(req, res) {
 
     // setup e-mail data with unicode symbols
     var mailOptions = {
-        from: '"TPS" <postmaster@thepaintshop.com>', // sender address
-        to: 'chris@devchris.io', // list of receivers
+        from: '"TPS" <postmaster@thefarrispaintshop.com>', // sender address
+        to: 'grayson@farrisfab.com', // list of receivers
         subject: 'Message from The Paint Shop Contact page', // Subject line
         text: message,
         attachments: attachments,
