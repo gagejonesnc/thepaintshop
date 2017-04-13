@@ -6,6 +6,6 @@ export class TpsprosPage {
   }
 
   getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+    return element(by.css('ps-root h1')).getText();
   }
 }
