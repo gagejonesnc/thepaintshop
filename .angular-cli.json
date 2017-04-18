@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "ps",
       "styles": [
+        "reset.css",
         "styles.css"
       ],
       "scripts": [],

@@ -1,0 +1,115 @@
+.services {
+  padding: 100px 0;
+}
+.cards {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+.card {
+  margin: 0 auto;
+  width: 30%;
+}
+
+
+
+
+/* Dont fuck with this.*/
+.hero {
+  position: relative;
+  z-index: -1;
+  background-color: #cacaca;
+}
+
+.hero svg {
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.hero:before, .hero:after {
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -10;
+  -webkit-backface-visibility: hidden;
+}
+.hero:before {
+  background: #fff;
+   top: -35%;
+  -webkit-transform-origin: 100% 0;
+   transform-origin: 100% 0;
+ }
+.hero:after {
+  background: #cacaca;
+  bottom: -15%;
+  -webkit-transform-origin: 100%;
+  transform-origin: 100%;
+}
+@media (min-width: 961px) {
+  .hero:after {
+    -webkit-transform: skewY(2.5deg);
+  -moz-transform: skewY(2.5deg);
+  -ms-transform: skewY(2.5deg);
+  -o-transform: skewY(2.5deg);
+  transform: skewY(2.5deg);
+  }
+  .hero:before {
+  -webkit-transform: skewY(-2.5deg);
+  -moz-transform: skewY(-2.5deg);
+  -ms-transform: skewY(-2.5deg);
+  -o-transform: skewY(-2.5deg);
+  transform: skewY(-2.5deg);
+  }
+  .hero svg{
+    width: 50%;
+  }
+}
+@media (max-width: 960px) and (min-width: 481px) {
+  .hero:after {
+    -webkit-transform: skewY(3.25deg);
+  -moz-transform: skewY(3.25deg);
+  -ms-transform: skewY(3.25deg);
+  -o-transform: skewY(3.25deg);
+  transform: skewY(3.25deg);
+  }
+  .hero:before {
+  -webkit-transform: skewY(-3.25deg);
+  -moz-transform: skewY(-3.25deg);
+  -ms-transform: skewY(-3.25deg);
+  -o-transform: skewY(-3.25deg);*
+  transform: skewY(-3.25deg);
+  }
+  .hero svg{
+    width: 75%;
+  }
+}
+@media (max-width: 480px) {
+  .hero:after {
+    -webkit-transform: skewY(4.5deg);
+  -moz-transform: skewY(4.5deg);
+  -ms-transform: skewY(4.5deg);
+  -o-transform: skewY(4.5deg);
+  transform: skewY(4.5deg);
+  }
+  .hero:before {
+  -webkit-transform: skewY(-4.5deg);
+  -moz-transform: skewY(-4.5deg);
+  -ms-transform: skewY(-4.5deg);
+  -o-transform: skewY(-4.5deg);
+  transform: skewY(-4.5deg);
+  }
+  .hero svg{
+    width: 90%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 75%;
+  }
+}

@@ -2,3 +2,30 @@
 html, body {
   font-family: 'Noto Sans', sans-serif;
 }
+h1 { font-size: 34px; line-height: 50px; font-weight: bold; }
+h2 { font-size: 30px; line-height: 50px; font-weight: bold; }
+h3 { font-size: 26px; line-height: 50px; font-weight: bold; }
+h4 { font-size: 22px; line-height: 50px; font-weight: bold; }
+h5 { font-size: 18px; line-height: 50px; font-weight: bold; }
+h6 { font-size: 14px; line-height: 50px; font-weight: bold; }
+
+.container {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.--center {
+  text-align: center;
+}
+
+@media (min-width: 960px) {
+  .container { width: 85%; }
+}
+@media (max-width: 960px) and (min-width: 641px) {
+  .container { width: 90%; }
+}
+@media (max-width: 640px) {
+  .container { width: 95%; }
+}
+

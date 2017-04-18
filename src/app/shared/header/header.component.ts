@@ -46,6 +46,17 @@ import {
         transform: 'rotate(-135deg) translateY(18px)'
       })),
       transition('i-3 <=> a-3', animate(300))
+    ]),
+    trigger('menuToggle', [
+      state('closed', style({
+        height: '0',
+        width: '0'
+      })),
+      state('opened', style({
+        height: '100%',
+        width: '100%'
+      })),
+      transition('closed <=> opened', animate(200))
     ])
   ]
 })
@@ -53,12 +64,14 @@ export class HeaderComponent implements OnInit {
   s_1 = 'i-1'; // initial state is inactive
   s_2 = 'i-2';
   s_3 = 'i-3';
+  menuState = 'closed';
 
 
   onAnimate() {
     this.s_1 === 'i-1' ? this.s_1 = 'a-1' : this.s_1 = 'i-1';
     this.s_2 === 'i-2' ? this.s_2 = 'a-2' : this.s_2 = 'i-2';
     this.s_3 === 'i-3' ? this.s_3 = 'a-3' : this.s_3 = 'i-3';
+    this.menuState === 'closed' ? this.menuState = 'opened' : this.menuState = 'closed';
   }
   constructor() { }
 
