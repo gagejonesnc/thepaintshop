@@ -165,8 +165,8 @@ app.post("/contact", upload.array("attachments", 5), function(req, res) {
 
     // setup e-mail data with unicode symbols
     var mailOptions = {
-        from: '"TPS" <postmaster@tpspros.com>', // sender address
-        to: 'grayson@farrisfab.com', // list of receivers
+        from: '"TPS" <contact@tpspros.com>', // sender address
+        to: 'info@farrisfab.com', // list of receivers
         subject: 'Message from The Paint Shop Contact page', // Subject line
         text: message,
         attachments: attachments,
