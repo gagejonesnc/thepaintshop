@@ -15,6 +15,7 @@ var path = require("path"),
     upload = multer(),
     app = express();
 
+
 app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
@@ -147,7 +148,7 @@ app.post("/contact", upload.array("attachments", 5), function(req, res) {
         company = req.body.organization,
         details = req.body.details,
         special = req.body.special,
-        isQuote = ((req.body.request_quote === "on") ? true:false),
+        isQuote = ((req.body.request_quote === "yes") ? true:false),
         isError = false;
     var message = "Hello,\n" +
                     "\nI am " + (isQuote ? "":"NOT ")  + "looking for a quote. Here is my information." +
@@ -159,14 +160,16 @@ app.post("/contact", upload.array("attachments", 5), function(req, res) {
                     "\nDetails: " + details +
                     "\nSpecial Instructions: " + special;
     console.log('\nCONTACT FORM DATA: ' + name + ' ' + email + ' ' + details + '\n');
+    console.log(req.body.request_quote);
+    console.log(((req.body.request_quote === "yes") ? true:false));
 
     // create transporter object capable of sending email using the default SMTP transport
     var transporter = nodemailer.createTransport(mg(auth));
 
     // setup e-mail data with unicode symbols
     var mailOptions = {
-        from: '"TPS" <contact@tpspros.com>', // sender address
-        to: 'info@farrisfab.com', // list of receivers
+        from: '"The Paint Shop Website" <contact@mg.tpspros.com>', // sender address
+        to: 'info@tpspros.com', // list of receivers
         subject: 'Message from The Paint Shop Contact page', // Subject line
         text: message,
         attachments: attachments,
@@ -179,7 +182,7 @@ app.post("/contact", upload.array("attachments", 5), function(req, res) {
             //FOR TESTING PURPOSES
             res.redirect("/error");
         } else {
-            console.log('\nRESPONSE SENT: ' + info.response + '\n');
+            console.log('\nRESPONSE SENT: ' + info + '\n');
             res.redirect("/contact");
         }
     });
