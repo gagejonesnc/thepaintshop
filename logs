@@ -1,0 +1,470 @@
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+/var/www/tps/app.js:171
+<<<<<<< HEAD
+^^
+SyntaxError: Unexpected token <<
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:53:21)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+
+
+
+###TPS application is listening on port 3000.
+[0mGET / [32m200 [0m14.577 ms - 6414[0m
+[0mGET /favicon.ico [33m404 [0m8.952 ms - 142[0m
+[0mGET /contact [32m200 [0m14.485 ms - 8317[0m
+[0mGET /contact [32m200 [0m7.976 ms - 8317[0m
+[0mGET /favicon.ico [33m404 [0m1.513 ms - 142[0m
+================================================================================================
+[]
+================================================================================================
+
+CONTACT FORM DATA: John Smith john@example.com This is a test from the live website.
+
+yes
+true
+
+RESPONSE SENT: [object Object]
+
+[0mPOST /contact [36m302 [0m342.798 ms - 60[0m
+[0mGET /contact [32m200 [0m21.167 ms - 8317[0m
+
+
+
+###TPS application is listening on port 3000.
+================================================================================================
+[]
+================================================================================================
+
+CONTACT FORM DATA: John Smith john@example.com This is a test from the live website.
+
+yes
+true
+
+RESPONSE SENT: [object Object]
+
+[0mPOST /contact [36m302 [0m610.239 ms - 60[0m
+[0mGET /contact [32m200 [0m29.889 ms - 8317[0m
+
+
+
+###TPS application is listening on port 3000.
+================================================================================================
+[]
+================================================================================================
+
+CONTACT FORM DATA: John Smith john@example.com This is a test from the live website.
+
+yes
+true
+
+RESPONSE SENT: [object Object]
+
+[0mPOST /contact [36m302 [0m598.191 ms - 60[0m
+[0mGET /contact [32m200 [0m15.924 ms - 8317[0m
+================================================================================================
+[]
+================================================================================================
+
+CONTACT FORM DATA: John Smith john@example.com This is a test from the live website.
+
+yes
+true
+
+RESPONSE SENT: [object Object]
+
+[0mPOST /contact [36m302 [0m565.298 ms - 60[0m
+[0mGET /contact [32m200 [0m9.191 ms - 8317[0m
+[0mGET / [32m200 [0m5.697 ms - 6414[0m
+[0mGET / [32m200 [0m3.845 ms - 6414[0m
+[0mGET /contact [32m200 [0m2.261 ms - 8317[0m
+[0mGET / [32m200 [0m11.477 ms - 6414[0m
+[0mGET /about [32m200 [0m7.687 ms - 6265[0m
+[0mGET /hndUnblock.cgi [33m404 [0m6.502 ms - 145[0m
+[0mGET /tmUnblock.cgi [33m404 [0m1.067 ms - 144[0m
+[0mGET /language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js [33m404 [0m2.694 ms - 226[0m
+[0mGET /../../../../../../../mnt/mtd/qt [33m404 [0m0.591 ms - 162[0m
+[0mGET /script [33m404 [0m1.902 ms - 137[0m
+[0mGET /current_config/Account1 [33m404 [0m0.934 ms - 154[0m
+[0mGET / [32m200 [0m6.877 ms - 6414[0m
+[0mGET /assets/css/ [33m404 [0m0.957 ms - 142[0m
+[0mGET / [32m200 [0m4.683 ms - 6414[0m
+[0mGET / [32m200 [0m12.835 ms - 6414[0m
+[0mGET / [32m200 [0m10.821 ms - 6414[0m
+[0mGET /manager/html [33m404 [0m4.435 ms - 143[0m
+[0mGET / [32m200 [0m4.507 ms - 6414[0m
+[0mGET / [32m200 [0m1.972 ms - 6414[0m
+[0mGET /HNAP1/ [33m404 [0m1.155 ms - 137[0m
+[0mGET / [32m200 [0m1.666 ms - 6414[0m
+[0mGET / [32m200 [0m8.671 ms - 6414[0m
+[0mGET /favicon.ico [33m404 [0m0.507 ms - 142[0m
+[0mGET / [36m304 [0m5.932 ms - -[0m
+[0mGET /about [32m200 [0m4.015 ms - 6265[0m
+[0mGET /services [32m200 [0m9.189 ms - 10992[0m
+[0mGET /work [32m200 [0m5.967 ms - 9210[0m
+[0mGET /work [36m304 [0m9.011 ms - -[0m
+[0mGET /services [36m304 [0m21.610 ms - -[0m
+[0mGET /services [36m304 [0m3.188 ms - -[0m
+[0mGET /contact [32m200 [0m7.810 ms - 8317[0m
+[0mGET /contact [36m304 [0m2.292 ms - -[0m
+[0mGET /about [36m304 [0m3.781 ms - -[0m
+[0mGET /services [36m304 [0m6.602 ms - -[0m
+[0mGET /contact [36m304 [0m6.368 ms - -[0m
+[0mGET / [36m304 [0m2.330 ms - -[0m
+[0mGET /services [32m200 [0m12.540 ms - 10992[0m
+[0mGET /contact [32m200 [0m6.483 ms - 8317[0m
+[0mGET / [32m200 [0m7.553 ms - 6414[0m
+[0mGET / [32m200 [0m7.871 ms - 6414[0m
+[0mGET / [32m200 [0m6.499 ms - 6414[0m
+[0mGET / [32m200 [0m4.728 ms - 6414[0m
+[0mGET / [36m304 [0m5.385 ms - -[0m
+[0mGET /shop [32m200 [0m5.270 ms - 8556[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m5.130 ms - 158[0m
+[0mGET /work [32m200 [0m5.941 ms - 9210[0m
+[0mGET /contact [32m200 [0m3.556 ms - 8317[0m
+[0mGET / [36m304 [0m1.824 ms - -[0m
+[0mGET /shop [36m304 [0m5.481 ms - -[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m0.991 ms - 158[0m
+[0mGET /work [36m304 [0m5.048 ms - -[0m
+[0mGET /about [32m200 [0m3.069 ms - 6265[0m
+[0mGET / [36m304 [0m1.208 ms - -[0m
+[0mGET / [32m200 [0m9.752 ms - 6414[0m
+[0mGET / [32m200 [0m5.936 ms - 6414[0m
+[0mHEAD http://180.163.113.82/check_proxy [33m404 [0m1.089 ms - 143[0m
+[0mGET / [36m304 [0m2.737 ms - -[0m
+[0mGET / [32m200 [0m4.367 ms - 6414[0m
+[0mGET /favicon.ico [33m404 [0m0.947 ms - 142[0m
+[0mGET / [32m200 [0m3.966 ms - 6414[0m
+[0mGET /work [32m200 [0m7.548 ms - 9210[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m3.156 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.278 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m1.072 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.396 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.437 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.368 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.416 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.690 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.348 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.438 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.317 ms - 160[0m
+[0mGET /Autodiscover/Autodiscover.xml [33m404 [0m0.459 ms - 160[0m
+[0mGET /favicon.ico [33m404 [0m0.604 ms - 142[0m
+[0mGET / [32m200 [0m3.301 ms - 6414[0m
+[0mGET / [32m200 [0m8.131 ms - 6414[0m
+[0mGET /phpMyAdmin/scripts/setup.php [33m404 [0m0.363 ms - 159[0m
+[0mGET /pma/scripts/setup.php [33m404 [0m0.305 ms - 152[0m
+[0mGET /myadmin/scripts/setup.php [33m404 [0m0.738 ms - 156[0m
+[0mGET / [32m200 [0m9.918 ms - 6414[0m
+[0mGET / [32m200 [0m1.817 ms - 6414[0m
+[0mGET / [32m200 [0m2.100 ms - 6414[0m
+[0mGET /?option=com_user&task=register [32m200 [0m1.140 ms - 6414[0m
+[0mGET / [32m200 [0m2.019 ms - 6414[0m
+[0mGET /login.action [33m404 [0m2.330 ms - 143[0m
+[0mGET /cas/login.action [33m404 [0m1.263 ms - 147[0m
+[0mGET / [32m200 [0m7.750 ms - 6414[0m
+[0mGET /contact [32m200 [0m8.483 ms - 8317[0m
+[0mGET / [32m200 [0m6.251 ms - 6414[0m
+[0mGET / [32m200 [0m6.118 ms - 6414[0m
+[0mGET / [32m200 [0m10.122 ms - 6414[0m
+[0mGET /services [32m200 [0m15.770 ms - 10992[0m
+[0mGET /contact [32m200 [0m9.661 ms - 8317[0m
+[0mGET /about [32m200 [0m10.895 ms - 6265[0m
+[0mGET / [32m200 [0m6.608 ms - 6414[0m
+[0mGET /shop [32m200 [0m13.156 ms - 8556[0m
+[0mGET /work [32m200 [0m6.070 ms - 9210[0m
+[0mGET / [32m200 [0m2.399 ms - 6414[0m
+[0mGET /shop [32m200 [0m10.442 ms - 8556[0m
+[0mGET /work [32m200 [0m7.139 ms - 9210[0m
+[0mGET / [32m200 [0m3.866 ms - 6414[0m
+[0mGET / [32m200 [0m6.794 ms - 6414[0m
+[0mGET /favicon.ico [33m404 [0m1.480 ms - 142[0m
+[0mGET / [36m304 [0m5.898 ms - -[0m
+[0mGET / [32m200 [0m9.912 ms - 6414[0m
+[0mGET / [32m200 [0m6.980 ms - 6414[0m
+[0mGET / [32m200 [0m3.009 ms - 6414[0m
+[0mGET /favicon.ico [33m404 [0m1.741 ms - 142[0m
+[0mGET / [32m200 [0m3.148 ms - 6414[0m
+[0mGET /js/mage/cookies.js [33m404 [0m1.171 ms - 149[0m
+[0mGET / [32m200 [0m8.673 ms - 6414[0m
+[0mGET / [32m200 [0m5.324 ms - 6414[0m
+[0mGET / [32m200 [0m4.513 ms - 6414[0m
+[0mGET /contact [32m200 [0m8.141 ms - 8317[0m
+[0mGET /about [32m200 [0m4.871 ms - 6265[0m
+[0mGET /services [32m200 [0m13.619 ms - 10992[0m
+[0mGET /work [32m200 [0m4.213 ms - 9210[0m
+[0mGET /shop [32m200 [0m4.351 ms - 8556[0m
+[0mGET /services [32m200 [0m15.635 ms - 10992[0m
+[0mGET /contact [32m200 [0m7.928 ms - 8317[0m
+[0mHEAD / [32m200 [0m4.051 ms - 6414[0m
+[0mGET / [32m200 [0m7.013 ms - 6414[0m
+[0mGET /index.htm [33m404 [0m2.692 ms - 140[0m
+[0mHEAD / [32m200 [0m4.462 ms - 6414[0m
+[0mGET / [32m200 [0m3.046 ms - 6414[0m
+[0mGET /allot/mappings?cliver=7.5.4&loginid=10000 [33m404 [0m0.540 ms - 145[0m
+[0mHEAD / [32m200 [0m5.451 ms - 6414[0m
+[0mGET / [32m200 [0m6.754 ms - 6414[0m
+[0mGET /index.htm [33m404 [0m1.131 ms - 140[0m
+[0mPROPFIND / [33m404 [0m2.331 ms - 136[0m
+[0mPROPFIND / [33m404 [0m0.824 ms - 136[0m
+[0mGET /w00tw00t.at.blackhats.romanian.anti-sec:) [33m404 [0m1.311 ms - 172[0m
+[0mGET /phpMyAdmin/scripts/setup.php [33m404 [0m0.247 ms - 159[0m
+[0mGET /phpmyadmin/scripts/setup.php [33m404 [0m0.350 ms - 159[0m
+[0mGET /pma/scripts/setup.php [33m404 [0m0.221 ms - 152[0m
+[0mGET /myadmin/scripts/setup.php [33m404 [0m0.369 ms - 156[0m
+[0mGET /MyAdmin/scripts/setup.php [33m404 [0m0.205 ms - 156[0m
+[0mGET /contact [32m200 [0m3.952 ms - 8317[0m
+[0mGET / [32m200 [0m2.117 ms - 6414[0m
+[0mGET /recordings/ [33m404 [0m0.560 ms - 142[0m
+[0mGET / [32m200 [0m2.653 ms - 6414[0m
+[0mGET /work [32m200 [0m4.549 ms - 9210[0m
+[0mGET / [36m304 [0m3.003 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.965 ms - 142[0m
+[0mGET /contact [32m200 [0m4.084 ms - 8317[0m
+[0mGET /services [32m200 [0m3.588 ms - 10992[0m
+[0mGET /work [36m304 [0m5.524 ms - -[0m
+[0mGET /assets/css/ [33m404 [0m1.000 ms - 142[0m
+[0mGET / [32m200 [0m22.239 ms - 6381[0m
+[0mGET /favicon.ico [33m404 [0m0.455 ms - 142[0m
+[0mGET /work [32m200 [0m5.566 ms - 10240[0m
+[0mGET /work [32m200 [0m5.825 ms - 10233[0m
+[0mGET /work [36m304 [0m3.381 ms - -[0m
+[0mGET /shop [32m200 [0m4.486 ms - 8549[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m0.946 ms - 158[0m
+[0mGET / [32m200 [0m6.070 ms - 6381[0m
+[0mGET /about [32m200 [0m2.384 ms - 6258[0m
+[0mGET / [32m200 [0m1.899 ms - 6381[0m
+[0mGET /favicon.ico [33m404 [0m0.413 ms - 142[0m
+[0mGET /services [32m200 [0m4.090 ms - 10985[0m
+[0mGET /shop [32m200 [0m6.282 ms - 8549[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m0.426 ms - 158[0m
+[0mGET /work [32m200 [0m3.357 ms - 10233[0m
+[0mGET /shop [32m200 [0m3.217 ms - 8549[0m
+[0mGET /contact [32m200 [0m4.712 ms - 8997[0m
+[0mGET /work [32m200 [0m5.480 ms - 10233[0m
+[0mGET / [36m304 [0m5.780 ms - -[0m
+[0mGET /contact [32m200 [0m4.181 ms - 8997[0m
+[0mGET /work [36m304 [0m5.489 ms - -[0m
+[0mGET /shop [36m304 [0m3.113 ms - -[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m0.596 ms - 158[0m
+[0mGET / [36m304 [0m2.617 ms - -[0m
+[0mGET /shop [36m304 [0m2.731 ms - -[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m0.758 ms - 158[0m
+[0mGET /shop [36m304 [0m3.846 ms - -[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m0.719 ms - 158[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m0.265 ms - 158[0m
