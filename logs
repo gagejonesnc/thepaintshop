@@ -468,3 +468,6 @@ RESPONSE SENT: [object Object]
 [0mGET /shop [36m304 [0m3.846 ms - -[0m
 [0mGET /assets/images/shop/team.jpg [33m404 [0m0.719 ms - 158[0m
 [0mGET /assets/images/shop/team.jpg [33m404 [0m0.265 ms - 158[0m
+[0mGET / [36m304 [0m4.161 ms - -[0m
+[0mGET /shop [32m200 [0m7.830 ms - 8553[0m
+[0mGET /assets/images/shop/team.jpg [33m404 [0m0.618 ms - 158[0m
